@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <!-- Metadata -->
+  <!-- Miguel Acosta Del Vecchio, 5/22/2024 -->
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+
+    <!-- Link to CSS StyleSheet -->
+    <link href='style.css' rel='stylesheet' type='text/css'/>
+
+    <!-- github icon link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>
+    Miguel Acosta
+    </title>
+  </head>
+
+  <!-- Displayed Elements -->
+  <body>
+
+    
+    <!-- GITHUB Button Desktop -->
+    <!--
+    <div class="desktop-only">
+      <div class="github-placement jumping-button"> 
+        <a href="https://github.com/MiguelAcostaDelVecchio" class="fa fa-github github-button"></a>
+      </div>
+    </div>
+    -->
+
+    <!-- Vertical Lines on the sides-->
+    <!--
+    <div class="vertical-line"></div>
+    -->
+
+    <!-- Horizontal Boundaries --> 
+    <div class="content-wrapper">
+
+    <!--
+    <a href="https://github.com/MiguelAcostaDelVecchio" target="_blank" class="github-button">
+      <img src="./images/githubIconOutline.png" alt="GitHub Logo">
+    </a>
+    -->
+
+
+    <!-- Navigation bar --> 
+    <nav class="navigation-bar">
+      <div class="desktop-only">
+        <div class="logo-image">
+          <img src="./images/logo.png" alt="logo">
+        </div>
+      </div>
+      <ol>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ol>
+    </nav>
+
+
+    <!--
+    <div>
+    <h1 class="name-title">Miguel Acosta Del Vecchio</h1>
+    <h3 class="job-title">Software Engineer</h3>
+    </div>
+    -->
+
+    <!--
+    <h1 id="expertise">Expertise</h1>
+
+    <h3>Native iOS Development<h3>
+    <p>Passionate about native iOS applications using SwiftUI, leveraging MVVM architecture and async/await for robust, responsive, and intuitive user experiences.<p>
+
+    <h3>Software Development<h3>
+    <p>Experienced in both Functional and OOP: Python, JavaScript, C++, &amp MATLAB.<p>
+
+    <h3>Frontend Dev React, NextJS<h3>
+    <p>Enthusiastic about UI/UX. Skilled in HTML, CSS, JS, React and NextJS frameworks.<p>
+    -->
+
+    <!-- Put an image of yourself here. I should schedule an appointment with a professional photographer and get a really good profile picture of myself. 
+      Probably gonna cost $75 but worth it. -->
+
+    <!--
+    <div class="about-container">
+      <img src="./images/miguelTenerife.JPG" class="profile-image">
+    </div>
+    -->
+
+    <div class="name-title-image-container">
+
+      <div class="name-title-buttons-container">
+
+        <h1 class="name-title">Miguel Acosta Del Vecchio</h1>
+        <h3 class="job-title">Software Engineer</h3>
+
+        <div class="social-media-buttons">
+          <div class="jumping-button"> 
+            <a href="https://github.com/MiguelAcostaDelVecchio" target="_blank" class="fa fa-github github-button"></a>
+          </div>
+          <div class="jumping-button"> 
+            <a href="https://www.linkedin.com/in/miguel-acosta7" target="_blank" class="fa fa-linkedin-square github-button"></a>
+          </div>
+          <div class="jumping-button"> 
+            <a href="https://www.instagram.com/miguelacostadel" target="_blank" class="fa fa-instagram github-button"></a>
+          </div>
+          <div class="jumping-button"> 
+            <a href="https://www.youtube.com/@miguelacosta808" target="_blank" class="fa fa-youtube github-button"></a>
+          </div>
+        </div>
+
+      </div>
+
+      <img src="./images/miguelTenerife.JPG" class="profile-image">
+
+    </div>
+
+    <div>
+    <h1 id="about" class="navigation-title">01. About Me</h1>
+
+    <p class="aboutme-description">I am a passionate software developer from Philadelphia, PA. I built and designed this website to share my journey as 
+      I tackle projects that interests me. Some of my experience lies in building iOS apps in SwiftUI, scenario simulation in Python, 
+      Cameo, and STK, and SITL/HITL simulation for drones using a Raspberry Pi and Pixhawk.
+      <br><br>
+      I graduated from Temple University 🦉 with a Bachelor of Science in Electrical Engineering in May 2024.
+      <br><br>
+      I speak English 🇺🇸, Spanish 🇨🇴, and Italian 🇮🇹 fluently. 
+      <br><br>
+      Currently hold the following certifications:
+      <br>- FAA Part 107 Drone License 🛩️
+      <br>- AWS Cloud Practitioner 👨‍💻
+      <br>- SysML Model Builder Fundamental 📖
+      <br>- Amateur HAM Radio License 📡
+    
+      <br><br>
+      Now, here are some of the things that I am passionate about:
+      <br>- Building and growing projects/products that provide value to other people 🙋‍♂️
+      <br>- Traveling 🧳
+      <br>- Soccer (Favorite team = AC Milan 🔴⚫️)
+    </p>
+    </div>
+
+
+    <h1 id="projects" class="navigation-title">02. Projects</h1>
+
+
+    <!-- iOS App to Raspberry Pi Via Core Bluetooth-->
+    <div class="project-container">
+
+      <!-- Project Image -->
+      <img src="./images/RpiCoreBluetooth.jpg" class="project-image"> <!-- Change image to picture of raspberry pi LED circuit-->
+      <div class="project-content">
+
+        <!-- Title & Date -->
+        <div class="project-title-date">
+          <h2 class="project-title">iOS App to Raspberry Pi Via Core Bluetooth</h2>
+          <h3 class="project-title">June, 2024</h3>
+        </div>
+
+        <!-- Project Description -->
+        <p class="project-description">The objective of this project was to learn about the Core Bluetooth framework. Given that I already had a raspberry pi
+          laying around my house from the Electrical Engineering studies, I decided it would be fun to interact with it from my own iOS app. So, I built 
+          an iOS app which allows you to scan for bluetooth peripherals nearby, connect/diconnect to them, and if it is a raspberry pi 4 you can choose to
+          toggle any specifc GPIO pin.
+        </p>
+
+        <!-- Skills -->
+        <div class="project-skills"> 
+          <h3 style="color: white;">Skills:</h3>
+          <p>SwiftUI</p>
+          <p>Core Bluetooth</p>
+          <p>NodeJS</p>
+          <p>JavaScript</p>
+          <p>Raspberry Pi</p>
+        </div>
+
+        <!-- Project Buttons -->
+        <div class="learnmore-container">
+          <button onclick="openInNewTab('https://endurable-silene-38c.notion.site/Learn-How-to-Toggle-Raspberry-Pi-GPIO-Pins-from-SwiftUI-App-Using-Core-Bluetooth-ddfb4d1cf9644b42b2b8b40bfb02d335')" type="button" class="learn-more">Learn More</button> 
+        </div>
+      </div>
+    </div>
+
+
+    <!-- ToDoWise iOS App -->
+    <div class="project-container">
+
+      <!-- Project Image -->
+      <img src="./images/todoWiseIcon.png" class="project-image">
+
+      <div class="project-content">
+
+        <!-- Title & Date -->
+        <div class="project-title-date">
+          <h2 class="project-title">ToDoWise: Task &amp Idea Planner</h2>
+          <h3 class="project-title">October 2023 - Present</h3>
+        </div>
+
+        <!-- Project Description -->
+        <p class="project-description">The purpose of this app is to help users organize their thoughts and support action. 
+          Thoughts can include anything from ideas, stories, quotes, and reflections. This app has been designed in such a way to promote the user to 
+          store and easily organize their thoughts to quickly use their past information as an advantage.
+        </p>
+        
+        <!-- Skills -->
+        <div class="project-skills"> 
+          <h3 style="color: white;">Skills:</h3>
+          <p>SwiftUI</p>
+          <p>MVVM</p>
+          <p>Notifications</p>
+          <p>Firebase</p>
+          <p>Swift Charts</p>
+        </div>
+
+        <!-- Project Buttons -->
+        <div class="learnmore-container">
+          <button onclick="openInNewTab('https://apps.apple.com/us/app/todowise-task-idea-planner/id6480089178')" type="button" class="learn-more">App Store</button>
+          <button onclick="openInNewTab('https://github.com/MiguelAcostaDelVecchio/TodoWiseRepo')" type="button" class="learn-more">Learn More</button>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <!-- Senior Design Project-->
+    <div class="project-container">
+
+      <!-- Project Image -->
+      <img src="./images/droneImg.jpg" class="project-image">
+      <div class="project-content">
+
+        <!-- Title & Date -->
+        <div class="project-title-date">
+          <h2 class="project-title">Aerial Photographer</h2>
+          <h3 class="project-title">August - April 2022</h3>
+        </div>
+
+        <!-- Project Description -->
+        <p class="project-description">I was the lead of my Senior Design Project at Temple University. 
+          The purpose of this project was to build a drone using our electrical and mechanical engineering knowledge 
+          (3 Electrical Engineers and 1 Mechanical Engineer) to create a drone capable of pre-recorded flight plans and intelligent 
+          features such as object detection and classification using the opencv library in python.
+        </p>
+
+        <!-- Skills -->
+        <div class="project-skills"> 
+          <h3 style="color: white;">Skills:</h3>
+          <p>Product Design</p>
+          <p>Python</p>
+          <p>OpenCV</p>
+          <p>Raspberry Pi</p>
+          <p>Pixhawk</p>
+        </div>
+
+        <!-- Project Buttons -->
+        <div class="learnmore-container">
+          <button onclick="openInNewTab('https://www.youtube.com/watch?v=gCC1Jo5csAg')" type="button" class="learn-more">Youtube</button>
+          <button onclick="openInNewTab('https://github.com/MiguelAcostaDelVecchio/AerialPhotographer')" type="button" class="learn-more">Learn More</button> 
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- Processor Systems Final Project -->
+    <div class="project-container">
+      <!-- Project Image -->
+      <img src="./images/processorSystemsFinalProject.png" class="project-image">
+      <div class="project-content">
+
+        <!-- Title & Date -->
+        <div class="project-title-date">
+          <h2 class="project-title">Processor Systems Final Project</h2>
+          <h3 class="project-title">April 2021</h3>
+        </div>
+
+        <!-- Project Description -->
+        <p class="project-description">This project enabled me to construct a circuit to control a DC motor 
+          and create a speedometer that uses an optocoupler to measure the motor's speed.
+        </p>
+
+        <!-- Skills -->
+        <div class="project-skills"> 
+          <h3 style="color: white;">Skills:</h3>
+          <p>Assembly</p>
+          <p>C</p>
+          <p>Atmel Studio</p>
+          <p>Circuit Design</p>
+        </div>
+
+        <!-- Project Buttons-->
+        <div class="learnmore-container">
+          <button onclick="openInNewTab('https://www.youtube.com/watch?v=OrtNGgeMBkM')" type="button" class="learn-more">Youtube</button>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- EMF Project 1 -->
+    <div class="project-container">
+
+      <!-- Project Image -->
+      <img src="./images/EMF_EquipotentialLines.png" class="project-image">
+
+      <div class="project-content">
+
+        <!-- Title & Date -->
+        <div class="project-title-date">
+          <h2 class="project-title">Electric Potential &amp Field Intensity</h2>
+          <h3 class="project-title">March 2021</h3>
+        </div>
+
+        <!-- Project Description -->
+        <p class="project-description">Electromagnetic Fields and Waves! The first given is a grid with 2 conductors in the middle of 
+          quadrant 1 and quadrant 3, with a charge of 10 volts and -10 volts respectively. 
+          The grid is a square of 1 unit wide centered at the origin, where the voltage at the boundaries is zero volts. 
+          The purpose of this project is to find the electric potential and the electric field intensity at all grid points in the domain, 
+          draw the equipotential lines in the domain, draw the contour plot of constant field intensity, and find the stored energy per unit volume.
+        </p>
+
+        <!-- Skills -->
+        <div class="project-skills"> 
+          <h3 style="color: white;">Skills:</h3>
+          <p>MATLAB</p>
+          <p>Electric Potential</p>
+          <p>Electric Field Intensity</p>
+        </div>
+
+        <!-- Project Buttons -->
+        <div class="learnmore-container">
+          <a href="./documents/EMFProject1.docx" download="EMFProject1.docx" class="learn-more">Learn More</a>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- EMF Project 2 -->
+    <div class="project-container">
+      <!-- Project Image -->
+      <img src="./images/EMF_ContourPlotProject2.png" class="project-image">
+
+      <div class="project-content">
+
+        <!-- Title & Date -->
+        <div class="project-title-date">
+          <h2 class="project-title">Magnetic Field &amp Potential</h2>
+          <h3 class="project-title">April 2021</h3>
+        </div>
+
+        <!-- Project Description -->
+        <p class="project-description">The purpose of this project is to find the vector magnetic potential and magnetic field from a 
+          region with nonuniform current density and an iron block. To view the specifications of this problem, click "Learn More"!
+        </p>
+
+        <!-- Skills -->
+        <div class="project-skills"> 
+          <h3 style="color: white;">Skills:</h3>
+          <p>MATLAB</p>
+          <p>Magnetic Field</p>
+          <p>Magnetic Potential</p>
+        </div>
+
+        <!-- Project Buttons -->
+        <div class="learnmore-container">
+          <a href="./documents/EMFProject2.docx" download="EMFProject2.docx" class="learn-more">Learn More</a>
+        </div>
+      </div>
+    </div>
+    
+
+
+    <!-- 03. Experience -->
+    <h1 id="experience" class="navigation-title">03. Experience</h1>
+
+    <!-- KBR Software Engineer Full Time -->
+    <div class="project-container">
+      
+      <!-- Project Image -->
+      <img src="./images/miguelKBR.JPG" class="project-image">
+      <div class="project-content">
+
+        <!-- Title & Date -->
+        <div class="project-title-date">
+          <h2 class="project-title">KBR, Inc. - Software Engineer</h2>
+          <h3 class="project-title">August 2021 - Present</h3>
+        </div>
+
+
+        <!-- Project Description-->
+        <p class="project-description">API development within Cameo Systems Modeler to external tools such as STK and AFSIM. Scenario simulation using Cameo to gather 
+          descriptive modeling data, STK to model orbital parameters, and python to create the scenario and study the result of the input parameters. Developed and refined 
+          Kalman filter algorithms for image processing, leveraging MATLAB along with the Image Processing and Signal Processing toolboxes to improve image quality and 
+          processing time by 27%. Determined the probability of false detection under multiple data conditions and utilized Python libraries such as Scikit, Matplotlib, 
+          and Plotly to plot data categories, distributions, correlations, and create translucent image overlays to show pixel classifications. In an agile 
+          team environment, collaborated using Git and GitLab for version control and code collaboration, resulting in seamless integration of contributions 
+          and efficient project management. Responsible for quarterly product demonstrations to both customers and corporate leadership, 
+          which increased awareness of project status and requirement fulfillment.
+        </p>
+
+        <!-- Skills -->
+        <div class="project-skills"> 
+          <h3 style="color: white;">Skills:</h3>
+          <p>Python</p>
+          <p>MATLAB</p>
+          <p>SysML</p>
+          <p>STK</p>
+          <p>Image & Signal Processing</p>
+          <p>Git</p>
+        </div>
+
+        <!-- Project Buttons -->
+        <div class="learnmore-container">
+          <button onclick="openInNewTab('https://www.kbr.com/en')" type="button" class="learn-more">KBR, Inc.</button>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- Real Estate Photographer -->
+    <div class="project-container">
+      
+      <!-- Project Image -->
+      <img src="./images/matterportPhoto.jpg" class="project-image">
+      <div class="project-content">
+
+        <!-- Title & Date -->
+        <div class="project-title-date">
+          <h2 class="project-title">Photographer - Independent Contractor</h2>
+          <h3 class="project-title">June 2020 - Present</h3>
+        </div>
+
+
+        <!-- Project Description-->
+        <p class="project-description">
+          Capture high-definition images for real estate listings, leveraging tools such as Photoshop and 
+          Lightroom to ensure optimal presentation. Utilize Matterport to create virtual tours, providing immersive and interactive 
+          experiences for potential buyers. Conduct aerial photography using drones to capture unique property perspectives, highlighting key features and surrounding 
+          landscapes. Maintain a meticulous attention to detail in all aspects of photography, from staging and lighting to post-processing, ensuring each image 
+          accurately represents the property. Work as an effective communicator, collaborating closely with real estate agents and property owners to understand 
+          their vision and deliver results that exceeded expectations. Employ a structured workflow and organizational skills to manage multiple projects 
+          simultaneously, ensuring timely delivery of high-quality images. 
+        </p>
+
+        <!-- Skills -->
+        <div class="project-skills"> 
+          <h3 style="color: white;">Skills:</h3>
+          <p>Photoshop</p>
+          <p>Lightroom</p>
+          <p>HD Photography</p>
+          <p>Matterport Virtual Tours</p>
+          <p>Drone Photography</p>
+          <p>Effective Communicator</p>
+          <p>Attention to Detail</p>
+        </div>
+
+        <!-- Project Buttons -->
+        <div class="learnmore-container">
+          <button onclick="openInNewTab('https://www.kbr.com/en')" type="button" class="learn-more">KBR, Inc.</button>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- KBR Software Engineer Internship -->
+    <div class="project-container">
+      
+      <!-- Project Image -->
+      <img src="./images/kbrImage.jpeg" class="project-image">
+      <div class="project-content">
+        
+        <!-- Title & Date -->
+        <div class="project-title-date">
+          <h2 class="project-title">KBR, Inc. - Software Engineering Internship</h2>
+          <h3 class="project-title">May - August 2021</h3>
+        </div>
+
+        <!-- Project Description -->
+        <p class="project-description">Created validation rules in Cameo Systems Modeler via Metachain to support methodology principles. Developed integration 
+          techniques with other software tools, such as MATLAB, within Cameo for statistical analysis. Constructed various descriptive and analytical models to 
+          simulate real-life system behavior. Applied different analytical methods, including the Monte Carlo Framework in Python, MATLAB, Simulink, and Cameo 
+          Systems Modeler, along with various integration techniques, to statistically analyze systems.
+        </p>
+        
+        <!-- Skills -->
+        <div class="project-skills"> 
+          <h3 style="color: white;">Skills:</h3>
+          <p>Python</p>
+          <p>MATLAB</p>
+          <p>SysML</p>
+          <p>Simulink</p>
+          <p>Monte Carlo Framework</p>
+          <p>Stochastic Processes</p>
+        </div>
+        
+        <!-- Project Buttons -->
+        <div class="learnmore-container">
+          <button onclick="openInNewTab('https://www.kbr.com/en')" type="button" class="learn-more">KBR, Inc.</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 04. Contact -->
+    <h1 id="contact" class="navigation-title">04. Contact</h1>
+    <h1 class="contact-title">Get In Touch</h1>
+    <h3 class="contact-description-title">Whether you want to talk, have a question, or just want to say hi, my inbox is always open. I will try my best to get back to you!</h3>
+    
+    <!--
+    <div class="contact-container">
+      <button type="button" class="say-hello">Say Hello</button>
+    </div>
+    -->
+    
+    <h3 class="contact-description-title">macostadelvecchio@gmail.com</h3>
+
+    <footer class="footer-text">Designed &amp Built by Miguel Acosta Del Vecchio</footer>
+
+  </div>
+
+
+  <script>
+    function openInNewTab(url) {
+        window.open(url, '_blank').focus();
+    }
+  </script>
+
+  </body>
+
+
+</html>
